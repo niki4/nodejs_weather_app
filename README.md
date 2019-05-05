@@ -4,6 +4,11 @@ Simple web-app that makes requests to OpenWeatherMap API and displays temperatur
 
 Built with NodeJS and Express. For full list of libraries used kindly see package.json file
 
+## Installation
+1. Clone repository to desired location
+2. Make sure you have *npm* or *npx* installed on your machine. Then switch to cloned repository folder and install projects dependencies:
+`npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
