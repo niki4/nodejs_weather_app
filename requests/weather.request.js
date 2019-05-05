@@ -5,7 +5,10 @@ const rp = require('request-promise')
 // exports
 module.exports = async function(city = '') {
     if (!city) {
-        throw new Error('City name cannot be empty')
+        return {
+            weather: null,
+            error: 'City name cannot be empty'
+        }
     }
 
     const KEY = '8ddb2ae4d480545c1441bb2374c9ff6d'
